@@ -4,23 +4,32 @@ import estiloItem from './estiloItem';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
+import { LivroFB } from '../../firebase/livroFB';
 
 function Item({ navigation, route }) {
 
     const [item, setItem] = useState('');
     const {operacao,setOperacao} = route.params;
 
+    const livroFb = new LivroFB();
+
     useEffect(() => {
         setItem(route.params.item);
     }, [route.params.item]);
 
     const voltar = () => {
-        navigation.navigate('Inicial')
+        navigation.navigate('Colecao')
     }
     
-    const salvar = () => { }
+    const salvar = (item) => { 
+        operacao == 'adicionar' ? livroFb.adicionarLivro(item) : livroFb.editarLivro(item);
+        voltar()
+    }
 
-    const remover = () => { }
+    const remover = (item) => { 
+        livroFb.removerLivro(item);
+        voltar();
+    }
 
     return (
         <View style={estiloItem.container}>
