@@ -1,2 +1,2 @@
-# React-Native-04-Firebase
+# ProjetoRN
 Exemplo de CRUD com o Firebase Firestore.
