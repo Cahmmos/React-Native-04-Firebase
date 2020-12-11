@@ -54,7 +54,7 @@ function Colecao({ navigation }) {
                 showsHorizontalScrollIndicator={false}
                 keyExtractor={(item) => item.id}
                 data={colecao}
-                renderItem={ ({item}) => <ItemLista data={item} detalhe={() => editar(item)} />}
+                renderItem={ ({item}) => <ItemLista data={item} detalhe={() => editar(item)} style={{backgroundColor: '#14417b'}}/>}
             />
 
         </View>
