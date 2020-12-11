@@ -50,7 +50,7 @@ function Item({ navigation, route }) {
             <View style={estiloItem.formularioContainer}>
 
                 <View style={estiloItem.campoContainer}>
-                    <MaterialIcons name="account-circle" size={32} color="#192f6a" />
+                    <MaterialIcons name="account-circle" size={32} color="#E01814" />
                     <TextInput 
                         style={estiloItem.campo}
                         placeholder="Nome"
@@ -61,7 +61,7 @@ function Item({ navigation, route }) {
                 </View>
 
                 <View style={estiloItem.campoContainer}>
-                    <FontAwesome5 name="book-reader" size={26} color="#192f6a" />
+                    <MaterialIcons name="group" size={32} color="#E01814" />
                     <TextInput 
                         style={estiloItem.campo}
                         placeholder="Sala"
@@ -72,7 +72,7 @@ function Item({ navigation, route }) {
                 </View>
 
                 <View style={estiloItem.campoContainer}>
-                    <FontAwesome5 name="calendar-alt" size={26} color="#192f6a" />
+                    <MaterialIcons name="school" size={32} color="#E01814" />
                     <TextInput 
                         style={estiloItem.campo}
                         placeholder="Turma"

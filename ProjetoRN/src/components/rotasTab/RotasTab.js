@@ -18,7 +18,7 @@ const RotasTab = () => {
     <Tab.Navigator
       tabBarOptions={
         {
-          style: {backgroundColor: '#081a31', borderTopColor: '#081a31'},
+          style: {backgroundColor: '#780D0B', border: 0, borderTopColor: '#FFFFFF'},
           activeTintColor: '#FFFFFF',
           showLabel: false,
         }
@@ -26,7 +26,7 @@ const RotasTab = () => {
       screenOptions={ ({route}) => ({
         tabBarIcon: ({color}) => {
             const {name} = icones[route.name];
-            return <MaterialIcons name={name} size={30} color={color} />
+            return <MaterialIcons name={name} size={30} color='#E01814' />
           }
         })
       }

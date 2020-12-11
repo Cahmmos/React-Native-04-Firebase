@@ -12,7 +12,7 @@ function Perfil({ navigation }) {
         <View style={estiloPerfil.container}>
             <View style={estiloPerfil.borda}>
                 
-                <Text style={estiloPerfil.texto}>Perfil</Text>
+                <Text style={estiloPerfil.texto}>Perfil</Text>    
 
                 <TouchableOpacity style={estiloPerfil.botaoContainer} onPress={voltar}>
                     <Text style={estiloPerfil.botaoTexto}>Voltar</Text>

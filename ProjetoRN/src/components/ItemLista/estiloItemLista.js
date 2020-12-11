@@ -3,10 +3,11 @@ import { StyleSheet } from 'react-native';
 const estiloItemLista = StyleSheet.create({
     areaItens: {   
         flex: 1,
-        backgroundColor: '#92afd7',
+        backgroundColor: '#B81311',
         marginBottom: 15,
         justifyContent: 'center',
         alignItems: 'center',
+    
     },
     itemTitulo: {   
         fontSize: 20,

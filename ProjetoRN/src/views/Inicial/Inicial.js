@@ -27,21 +27,21 @@ function Inicial({ navigation }) {
 
             <View style={estiloInicial.header}>
                 <TouchableOpacity onPress={exibirDrawer}>
-                    <AntDesign name="menu-fold" size={20} color="white" />
+                    <AntDesign name="menu-fold" size={25} color="white" />
                 </TouchableOpacity>
             </View>
 
-            <ImageBackground style={estiloInicial.fundo} source={require('../../../assets/imagens/aco.jpg')}>
+            <ImageBackground style={estiloInicial.fundo}>
 
                 <TouchableOpacity onPress={abrirColecao} style={{paddingBottom: 25}}>
-                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/espaco.jpg')}>
-                        <Text style={estiloInicial.botaoTexto}>Coleção</Text>                    
+                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/perfil.jpg')}>
+                        <Text style={estiloInicial.botaoTexto}>Perfil</Text>                    
                     </ImageBackground>
                 </TouchableOpacity>
 
                 <TouchableOpacity onPress={abrirItem}>
-                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/ring.jpg')}>
-                        <Text style={estiloInicial.botaoTexto}>Item</Text>                    
+                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/alunos.jpg')}>
+                        <Text style={estiloInicial.botaoTexto}>Aluno</Text>                    
                     </ImageBackground>
                 </TouchableOpacity>
 

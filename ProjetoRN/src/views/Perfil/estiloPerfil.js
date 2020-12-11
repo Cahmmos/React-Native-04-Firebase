@@ -4,7 +4,8 @@ const estiloPerfil = StyleSheet.create({
    container: {   
       flex: 1,
       justifyContent: 'center',
-      alignItems: 'center',     
+      alignItems: 'center',    
+      backgroundColor: '#210303',
    },
    borda: {   
       backgroundColor: '#081a31',  
@@ -12,6 +13,11 @@ const estiloPerfil = StyleSheet.create({
       height: '25%',
       borderRadius: 10,
    },
+
+   fundo: {
+       backgroundColor: '#210303',
+   },
+   
    texto: {
       fontSize: 20,
       color: '#FFFFFF',

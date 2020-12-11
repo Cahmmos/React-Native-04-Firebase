@@ -9,11 +9,12 @@ const estiloColecao = StyleSheet.create({
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
+      backgroundColor: '#780D0B',
       padding: 5,
    },
    texto: {
       fontSize: 20,
-      color: '#14417b',
+      color: '#E01814',
       fontWeight: 'bold',
    },
 

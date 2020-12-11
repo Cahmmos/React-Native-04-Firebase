@@ -20,7 +20,7 @@ const RotasDrawer = () => {
         component={Inicial}
         options={{
           drawerIcon: ({color, size}) => (
-            <MaterialIcons name='home' size={size} color={color} />
+            <MaterialIcons name='home' size={size} color='#FFF' />
           )
         }}
       />
@@ -30,7 +30,7 @@ const RotasDrawer = () => {
         component={Colecao}
         options={{
           drawerIcon: ({color, size}) => (
-            <MaterialIcons name="storage" size={size} color={color} />
+            <MaterialIcons name="storage" size={size} color='#FFF' />
           )
         }}      
       />
@@ -40,7 +40,7 @@ const RotasDrawer = () => {
         initialParams={{item: {}, operacao: 'adicionar'}}
         options={{
           drawerIcon: ({color, size}) => (
-            <MaterialIcons name="done-all" size={size} color={color} />
+            <MaterialIcons name="done-all" size={size} color='#FFF' />
           )
         }}      
       />

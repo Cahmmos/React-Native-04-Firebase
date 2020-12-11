@@ -42,11 +42,11 @@ function Colecao({ navigation }) {
 
             <View style={estiloColecao.header}>
                 <TouchableOpacity onPress={voltar}>
-                    <MaterialIcons name="arrow-back" size={24} color="#14417b" />
+                    <MaterialIcons name="arrow-back" size={24} color="#E01814" />
                 </TouchableOpacity>
                 <Text style={estiloColecao.texto}>Perfil</Text>
                 <TouchableOpacity onPress={adicionar}>
-                    <MaterialIcons name="add" size={24} color="#14417b" />
+                    <MaterialIcons name="add" size={24} color="#E01814" />
                 </TouchableOpacity>
             </View>
 
@@ -56,7 +56,7 @@ function Colecao({ navigation }) {
                 data={colecao}
                 renderItem={ ({item}) => <ItemLista data={item} detalhe={() => editar(item)} style={{backgroundColor: '#14417b'}}/>}
             />
-
+            
         </View>
     )
 }

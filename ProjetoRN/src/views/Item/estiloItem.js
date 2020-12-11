@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const estiloItem = StyleSheet.create({
    container: {   
       flex: 1,
-      backgroundColor: '#92afd7',  
+      backgroundColor: '#210303',  
    },
    header: {
        height: 50,
@@ -44,12 +44,10 @@ const estiloItem = StyleSheet.create({
        width: '100%',
        fontSize: 18,
        color: '#FFF',
-       backgroundColor: '#4c669f',
+       backgroundColor: '#F71A16',
        marginLeft: 15,
        padding: 10,
-       borderWidth: 1,
-       borderColor: '#192f6a',
-       borderRadius: 5,
+       borderRadius: 10,
    },
    campoDescricao: {
        width: '90%',
@@ -74,10 +72,11 @@ const estiloItem = StyleSheet.create({
    botaoContainer: {
        width: 50,
        height: 50,
+       marginTop: 50,
        justifyContent: 'center',
        borderRadius: 25,
        alignItems: 'center',
-       backgroundColor: '#081a31',
+       backgroundColor: '#E01814',
        padding: 5,
        marginRight: 10,
    },
